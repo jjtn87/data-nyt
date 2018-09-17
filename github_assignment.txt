@@ -1,0 +1,22 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww22320\viewh12960\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\b \cf0 Analysis of NYT\'92s \'93Who the Hill\'94 
+\b0 \
+Jeremy Turley\
+\
+\
+For this assignment, I have found a 
+\i New York Times 
+\i0 project called \'93Who the Hill.\'94 I cloned the repository and examined it, though it was difficult to decipher with my untrained eyes. It looked to be the design for some kind of application one might use on a phone. Fortunately, the authors of the code included what I would call notes (I\'92m sure the GitHub community calls them something else) in between purposeful lines of code. These notes were the key to understanding what the project was actually trying to accomplish. For example, one line of notes says \'93Generates a response message for a celebrity recognition object recieved (sic) from Amazon Rekognition.\'94 This note comes after a command that says, \'93def generate_message(celeb_obj, color)\'85\'94 At this point, I was not sure exactly what the \'93application\'94 could do, but I knew it had something to do with recognition of celebrities and an Amazon-developed program. I also saw something in the file about \'93confidence levels,\'94 so I gathered the app is able to give a level of confidence when it recognizes celebrities. \
+\
+After a few minutes of looking at the main data file, I ventured into other folders and found one called \'93nicknames_dump.\'94 I clicked on it and found names like Joseph Kennedy and Ben Sasse at the top. That\'92s when I figured out that many if not all of the names in the program were U.S. politicians. I then looked at the folder on GitHub and read the README file that explained the purpose of project. By texting a photo to some number, 
+\i Times
+\i0  reporters are able to identify any member of the U.S. Congress. The program uses facial recognition to identify the congresspeople and sends a message back to the reporter\'92s phone with a name and corresponding confidence level for each face. This makes a lot of sense given what I was able to surmise on my own. I\'92ve always thought apps like this one are pretty damn cool, but it never occurred to me that coding was responsible for their existence. When you don\'92t know anything about coding, this sort of thing doesn\'92t really cross your mind. Hopefully, I\'92ll learn enough to at least know the basic capabilities of python. }
